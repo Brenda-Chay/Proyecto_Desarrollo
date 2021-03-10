@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&family=Rubik:wght@300&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background: #232946;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    padding: 70px 0;
+    background-color: #B8C1EC;
+	border-radius: 40px;
+
+}
+
+.header .cont {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .txt1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight:500;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+.txt1 {
+	padding: 70px;
+    background-color: #232946;
+	border-radius: 40px;
+}
+
+.header nav a {
+	color: #1e212d;
+	text-decoration:none;
+	margin-right: 70px;
+	font-size: 30px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #161d6f;
+}
+
+.Contenido {
+    width: 500px;
+    height: 650px;
+    color: black;
+    top: 55%;
+    left: 35%;
+    position: absolute;
+    opacity: 0.9;
+    border-radius: 6%;
+    background-color: #8BD3DD;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(50, 50, 50, 1);
+    box-shadow: 0px 0px 100px 0px rgba(50, 50, 50, 1);
+}
